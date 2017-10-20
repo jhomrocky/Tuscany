@@ -22,16 +22,40 @@ span.icon-bar {
 }
 
 .jumbotron{
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 #firstjumbo {
-    margin-top: 0;
-    margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
     padding-top: 0;
-    padding-bottom: 0;
     padding-left: 0;
     padding-right: 0;
-    height: 100%
+    height: 372px;
+}
+#locations {
+    background-color: #474E5D;
+    color: white;
+}
+
+#amenities {
+    background-color: #474E5D;
+    color: white;
+}
+p{
+    text-align: center;
+}
+#reviews {
+    background-color: #474E5D;
+    color: white;
+}
+#contact {
+    background-color: #474E5D;
+    color: white;
+}
+
+#home {
+    background-color: #474E5D;
+    color: white;
 }
