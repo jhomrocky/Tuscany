@@ -1,9 +1,37 @@
 ﻿body {
 }
 
+/*NavBar*/
+
 nav#navBar.navbar.navbar-static-top {
-    background-color: #474E5D;
+    background-color: #474E5D; 
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
 }
 #navBar a {
     color: white;
+}
+
+/*Collapsed navbar button*/
+button.navbar-toggle {
+    border: 1px solid white;
+}
+span.icon-bar {
+    border: 1px solid white;
+}
+
+.jumbotron{
+}
+
+#firstjumbo {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    height: 100%
 }
