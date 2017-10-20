@@ -1,2 +1,9 @@
 ﻿body {
 }
+
+nav#navBar.navbar.navbar-static-top {
+    background-color: #474E5D;
+}
+#navBar a {
+    color: white;
+}
