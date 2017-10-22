@@ -1,5 +1,6 @@
 ﻿body {
     font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 16px;
 }
 
 /*NavBar*/
@@ -69,7 +70,7 @@ body > div.row.container-fluid.locationOne > div.col-sm-4.col-md-4 {
 body > div.row.container-fluid.locationOne > div.col-sm-4.col-md-4 > div{
     margin-bottom: 0;
     padding: 0;
-    border: 0px solid white;
+    border: 0 solid white;
 }
 
 /*Location Two*/
@@ -91,7 +92,7 @@ body > div.row.container-fluid.locationTwo > div.col-sm-4.col-md-4 {
 body > div.row.container-fluid.locationTwo > div.col-sm-4.col-md-4 > div {
     margin-bottom: 0;
     padding: 0;
-    border: 0px solid #474E5D;
+    border: 0 solid #474E5D;
 }
 
 /*Location Three*/
@@ -112,7 +113,7 @@ body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 {
 body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 > div {
     margin-bottom: 0;
     padding: 0;
-    border: 0px solid white;
+    border: 0 solid white;
 }
 
     
@@ -122,6 +123,157 @@ body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 > div {
     color: white;
     text-align: center;
 }
+
+/*3x3 Grid*/
+
+/*first row*/
+.firstRow {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+/*top left section*/
+.firstRow > .topleft {
+    background-image: url('Content/images/3b-348x348.jpg');
+    background-size: cover;
+    text-align: center;
+    height: 348px;
+}
+
+.firstRow > .topleft > .textbox {
+    background-color: rgbA(85, 87, 96, 0.6);
+    color: white;
+    text-align: center;
+    border: none;
+    height: 70px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: auto;
+}
+
+/*top middle section*/
+.firstRow > .topmiddle {
+    color: #474E5D;
+    text-align: center;
+    line-height: 1em;
+    height: 348px;
+    }
+
+/*top right section*/
+.firstRow > .topright {
+    background-image: url('Content/images/42-348x348.jpg');
+    background-size: cover;
+    height: 348px;
+    text-align: center;
+}
+
+.firstRow > .topright > .textbox {
+    background-color: rgbA(85, 87, 96, 0.6);
+    color: white;
+    text-align: center;
+    border: none;
+    height: 70px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: auto;
+}
+
+/*Second row*/
+.secondRow {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+.secondRow > .middleleft {
+    color: #474E5D;
+    text-align: center;
+    line-height: 1em;
+    height: 348px;
+}
+
+.secondRow > .middle {
+    background-size: cover;
+    height: 348px;
+    text-align: center;
+    background-image: url('Content/images/314-348x348.jpg');
+}
+
+.secondRow > .middle > .textbox {
+    background-color: rgbA(85, 87, 96, 0.6);
+    color: white;
+    text-align: center;
+    border: none;
+    height: 70px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: auto;
+}
+
+.secondRow > .middleright {
+    color: #474E5D;
+    text-align: center;
+    line-height: 1em;
+    height: 348px;
+}
+
+/*Third Row*/
+
+.thirdRow {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+.thirdRow > .bottomleft {
+    background-image: url('Content/images/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
+    background-size: cover;
+    height: 348px;
+    text-align: center;
+}
+
+.thirdRow > .bottomleft > .textbox {
+    background-color: rgbA(85, 87, 96, 0.6);
+    color: white;
+    text-align: center;
+    border: none;
+    height: 70px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: auto;
+}
+
+.thirdRow > .bottommiddle {
+    color: #474E5D;
+    text-align: center;
+    line-height: 1em;
+    height: 348px;
+}
+
+.thirdRow > .bottomright {
+    background-image: url('Content/images/Villa-Vanna-231-348x348.jpg');
+    background-size: cover;
+    height: 348px;
+    text-align: center;
+}
+
+.thirdRow > .bottomright > .textbox {
+    background-color: rgbA(85, 87, 96, 0.6);
+    color: white;
+    text-align: center;
+    border: none;
+    height: 70px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: auto;
+}
+
 
 #reviews {
     background-color: #474E5D;
