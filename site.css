@@ -1,9 +1,10 @@
 ﻿body {
+    font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 /*NavBar*/
 
-nav#navBar.navbar.navbar-static-top {
+#navBar {
     background-color: #474E5D; 
     margin-top: 0;
     margin-bottom: 0;
@@ -14,10 +15,10 @@ nav#navBar.navbar.navbar-static-top {
 }
 
 /*Collapsed navbar button*/
-button.navbar-toggle {
+.navbar-toggle {
     border: 1px solid white;
 }
-span.icon-bar {
+.icon-bar {
     border: 1px solid white;
 }
 
@@ -37,25 +38,104 @@ span.icon-bar {
 #locations {
     background-color: #474E5D;
     color: white;
+    text-align: center;
 }
 
+#locations > h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+#locations > h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*Location One*/
+.locationOne {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1em;
+}
+
+/*Centering image on right side of Location #1 and border work*/
+body > div.row.container-fluid.locationOne > div.col-sm-4.col-md-4 {
+
+    padding-left: 0;
+    padding-right: 0;
+}
+body > div.row.container-fluid.locationOne > div.col-sm-4.col-md-4 > div{
+    margin-bottom: 0;
+    padding: 0;
+    border: 0px solid white;
+}
+
+/*Location Two*/
+.locationTwo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1em;
+    background-color: #474E5D;
+    color: white;
+}
+
+/*Centering image on left side of Location #2 and ensuring no border on picture*/
+body > div.row.container-fluid.locationTwo > div.col-sm-4.col-md-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+body > div.row.container-fluid.locationTwo > div.col-sm-4.col-md-4 > div {
+    margin-bottom: 0;
+    padding: 0;
+    border: 0px solid #474E5D;
+}
+
+/*Location Three*/
+.locationThree {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1em;
+}
+
+/*Centering image on right side of Location #3 and border work*/
+body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 > div {
+    margin-bottom: 0;
+    padding: 0;
+    border: 0px solid white;
+}
+
+    
+/*Amenities*/
 #amenities {
     background-color: #474E5D;
     color: white;
-}
-p{
     text-align: center;
 }
+
 #reviews {
     background-color: #474E5D;
     color: white;
+    text-align: center;
 }
 #contact {
     background-color: #474E5D;
     color: white;
+    text-align: center;
 }
 
 #home {
     background-color: #474E5D;
     color: white;
+    text-align: center;
 }
