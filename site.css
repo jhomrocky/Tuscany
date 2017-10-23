@@ -1,6 +1,8 @@
 ﻿body {
-    font-family: 'Alegreya Sans SC', sans-serif;
-    font-size: 16px;
+    font-family: 'Rokkitt', serif;
+}
+.btn-primary {
+    border-radius: 0;
 }
 
 /*NavBar*/
@@ -45,13 +47,13 @@
     height: 372px;
 }
 
-.container.toppics > .leftside > h1 {
+.toppics > .leftside > h1 {
     font-size: 72px;
     text-align: center;
     color: white;
     padding-bottom: 0;
 }
-.container.toppics > .leftside > h2 {
+.toppics > .leftside > h2 {
     text-align: center;
     color: white;
 }
@@ -81,12 +83,18 @@
     line-height: 1em;
 }
 
+/*Button path*/
+.locationOne > div > div > p:nth-child(3) > a {
+    background-color: #474E5D;
+}
+
+
 /*Centering image on right side of Location #1 and border work*/
-body > div.row.container-fluid.locationOne > div.col-sm-4.col-md-4 {
+.locationOne > div.col-sm-4.col-md-4 {
     padding-left: 0;
     padding-right: 0;
 }
-body > div.row.container-fluid.locationOne > div.col-sm-4.col-md-4 > div{
+.locationOne > div.col-sm-4.col-md-4 > div{
     margin-bottom: 0;
     padding: 0;
     border: 0 solid white;
@@ -103,12 +111,18 @@ body > div.row.container-fluid.locationOne > div.col-sm-4.col-md-4 > div{
     color: white;
 }
 
+/*Button path*/
+.locationTwo > div > div > p:nth-child(3) > a {
+    background-color: white;
+    color: black;
+}
+
 /*Centering image on left side of Location #2 and border work*/
-body > div.row.container-fluid.locationTwo > div.col-sm-4.col-md-4 {
+.locationTwo > div.col-sm-4.col-md-4 {
     padding-left: 0;
     padding-right: 0;
 }
-body > div.row.container-fluid.locationTwo > div.col-sm-4.col-md-4 > div {
+.locationTwo > div.col-sm-4.col-md-4 > div {
     margin-bottom: 0;
     padding: 0;
     border: 0 solid #474E5D;
@@ -123,13 +137,19 @@ body > div.row.container-fluid.locationTwo > div.col-sm-4.col-md-4 > div {
     line-height: 1em;
 }
 
+/*Button path*/
+.locationThree > div > div > p:nth-child(3) > a {
+    background-color: #474E5D;
+}
+
+
 /*Centering image on right side of Location #3 and border work*/
-body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 {
+.locationThree > div.col-sm-4.col-md-4 {
     padding-left: 0;
     padding-right: 0;
 }
 
-body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 > div {
+.locationThree > div.col-sm-4.col-md-4 > div {
     margin-bottom: 0;
     padding: 0;
     border: 0 solid white;
@@ -162,15 +182,16 @@ body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 > div {
     text-align: center;
     height: 348px;
 }
-.container.firstRow > .col-sm-6.col-md-4.topleft > div
+.firstRow > .topleft > div
 {
     margin-top: 38%;
     margin-bottom: auto;
 }
 
 .firstRow > .topleft > .textbox {
-    background-color: rgbA(85, 87, 96, 0.6);
     color: white;
+    background-color: #525872;
+    background-color: rgbA(85, 87, 96, 0.6);
     text-align: center;
     border: none;
     height: 70px;
@@ -186,6 +207,11 @@ body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 > div {
     line-height: 1em;
     height: 348px;
     }
+/*top middle button path*/
+.firstRow > .topmiddle > div > p:nth-child(3) > a {
+    background-color: #474E5D;
+}
+
 
 /*top right section*/
 .firstRow > .topright {
@@ -194,15 +220,16 @@ body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 > div {
     height: 348px;
     text-align: center;
 }
-.container.firstRow > .col-sm-6.col-md-4.topright > div {
+.firstRow > .topright > div {
     margin-top: 38%;
     margin-bottom: auto;
 }
 
 
 .firstRow > .topright > .textbox {
-    background-color: rgbA(85, 87, 96, 0.6);
     color: white;
+    background-color: #525872;
+    background-color: rgbA(85, 87, 96, 0.6);
     text-align: center;
     border: none;
     height: 100px;
@@ -227,6 +254,10 @@ body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 > div {
     line-height: 1em;
     height: 348px;
 }
+/*Left section button path*/
+.secondRow > .middleleft > div > p:nth-child(3) > a {
+    background-color: #474E5D;
+}
 
 /*Middle row, middle section*/
 .secondRow > .middle {
@@ -236,17 +267,18 @@ body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 > div {
     background-image: url('Content/images/314-348x348.jpg');
 }
 
-.container.secondRow > .col-sm-6.col-md-4.middle > div {
+.secondRow > .middle > div {
     margin-top: 35%;
     margin-bottom: auto;
 }
 
 .secondRow > .middle > .textbox {
-    background-color: rgbA(85, 87, 96, 0.6);
     color: white;
+    background-color: #525872;
+    background-color: rgbA(85, 87, 96, 0.6);
     text-align: center;
     border: none;
-    height: 100px;
+    height: 150px;
     margin-left: 25%;
     margin-right: 25%;
     padding-top: 1px;
@@ -260,6 +292,10 @@ body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 > div {
     text-align: center;
     line-height: 1em;
     height: 348px;
+}
+/*Right section button path*/
+.secondRow > .middleright > div > p:nth-child(3) > a {
+    background-color: #474E5D;
 }
 
 /*Third Row*/
@@ -281,17 +317,18 @@ body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 > div {
     text-align: center;
 }
 
-.container.thirdRow > .col-sm-6.col-md-4.bottomleft > div {
+.container.thirdRow > .bottomleft > div {
     margin-top: 35%;
     margin-bottom: auto;
 }
 
 .thirdRow > .bottomleft > .textbox {
-    background-color: rgbA(85, 87, 96, 0.6);
     color: white;
+    background-color: #525872;
+    background-color: rgbA(85, 87, 96, 0.6);
     text-align: center;
     border: none;
-    height: 100px;
+    height: 150px;
     margin-left: 25%;
     margin-right: 25%;
     padding-top: 1px;
@@ -306,6 +343,10 @@ body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 > div {
     line-height: 1em;
     height: 348px;
 }
+/*Bottom middle button section*/
+.thirdRow > .bottommiddle > div > p:nth-child(3) > a {
+    background-color: #474E5D;
+}
 
 /*Bottom right section*/
 .thirdRow > .bottomright {
@@ -315,17 +356,18 @@ body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 > div {
     text-align: center;
 }
 
-.container.thirdRow > .col-sm-6.col-md-4.bottomright > div {
+.container.thirdRow > .bottomright > div {
     margin-top: 35%;
     margin-bottom: auto;
 }
 
 .thirdRow > .bottomright > .textbox {
-    background-color: rgbA(85, 87, 96, 0.6);
     color: white;
+    background-color: #525872;
+    background-color: rgbA(85, 87, 96, 0.6);
     text-align: center;
     border: none;
-    height: 100px;
+    height: 120px;
     margin-left: 25%;
     margin-right: 25%;
     padding-top: 1px;
@@ -344,20 +386,17 @@ body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 > div {
 #reviewCarousel {
     text-align: center;
     background-color: white;
-    margin-top: 4%;
-    margin-bottom: 4%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 4% auto 4% auto;
 }
 #reviewCarousel > h2 {
     vertical-align: middle;
 }
 
 .carousel-indicators {
-    bottom: -50px;
+        bottom: -40px;
 }
+
 .carousel-indicators li {
-    vertical-align: bottom;
     background-color: #474E5D;
 }
 .carousel-indicators .active {
@@ -383,10 +422,7 @@ body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 > div {
 
 /*Contact field*/
 .contactField {
-    margin-top: 50px;
-    margin-right: 0;
-    margin-bottom: 150px;
-    margin-left: 0;
+    margin: 50px 0 150px 0;
     padding-right: 50px;
     width: 100%;
     padding-left: 50px;
@@ -398,6 +434,12 @@ body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 > div {
 
 .contactField > .rightside {
     padding: 0;
+}
+
+.contactField > .rightside > p > a {
+    margin-top: 10px;
+    background-color: #474E5D;
+    float: right;
 }
 
 /*bottom portion jumbotron*/
