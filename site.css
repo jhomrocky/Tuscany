@@ -232,12 +232,12 @@
     background-color: rgbA(85, 87, 96, 0.6);
     text-align: center;
     border: none;
-    height: 100px;
+    height: 110px;
     margin-left: 25%;
     margin-right: 25%;
-    padding-top: 1px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 0.5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /*Second row*/
@@ -278,12 +278,10 @@
     background-color: rgbA(85, 87, 96, 0.6);
     text-align: center;
     border: none;
-    height: 150px;
+    height: 100px;
     margin-left: 25%;
     margin-right: 25%;
     padding-top: 1px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 /*Middle row, right section*/
@@ -328,12 +326,10 @@
     background-color: rgbA(85, 87, 96, 0.6);
     text-align: center;
     border: none;
-    height: 150px;
+    height: 100px;
     margin-left: 25%;
     margin-right: 25%;
     padding-top: 1px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 /*Bottom middle section*/
@@ -367,7 +363,7 @@
     background-color: rgbA(85, 87, 96, 0.6);
     text-align: center;
     border: none;
-    height: 120px;
+    height: 100px;
     margin-left: 25%;
     margin-right: 25%;
     padding-top: 1px;
