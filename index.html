@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Tuscany Villa</title>
-	<meta charset="utf-8" />
+    <meta charset="utf-8" />
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
@@ -14,6 +14,8 @@
     <link href="site.css" rel="stylesheet" />
     <!--Google Font-->
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
+    <!--Google icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
 
@@ -42,9 +44,13 @@
     </nav>
 
     <!--Side by side pictures underneath navbar-->
-    <div class="jumbotron" id="firstjumbo">
-        <img src="Content/images/tuscany-villas-sant-anna.jpg" align="left" style="width: 75%" height="372" />
-        <img src="Content/images/Versilia.jpg" align="right" style="width: 25%" height="372" />
+    <div class="row container toppics">
+        <div class="col-sm-9 col-md-9 leftside">
+            <h1><large>Tuscany Villa</large></h1>
+            <h2>We specialize in relaxaton</h2>
+        </div>
+        <div class="col-sm-3 col-md-3 rightside">
+        </div>
     </div>
 
     <!--Locations-->
@@ -61,11 +67,11 @@
                 <h2>Location #1</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices purus sed sem sagittis bibendum. Pellentesque volutpat nulla vitae dui scelerisque, vitae porttitor lectus imperdiet. Sed porttitor est eget feugiat porta. Pellentesque ac aliquam est. Suspendisse libero enim, ultrices in quam sed, fermentum cursus tellus. Phasellus augue sapien, rhoncus et tempus id, mollis a eros. Praesent mi orci, porttitor eget ante volutpat, pharetra vehicula libero. Nullam ac velit semper, auctor dolor non, tincidunt augue. Etiam laoreet erat vel pretium gravida. Sed at metus justo. Aenean efficitur justo vel imperdiet ultricies. Duis aliquet imperdiet pellentesque.</p>
                 <p><a href="#" class="btn btn-primary" role="button">Reserve Now!</a> </p>
-            </div>           
+            </div>
         </div>
         <div class="col-sm-4 col-md-4">
             <div class="thumbnail">
-                <img src="Content/images/italy-mountain-villa.jpeg" alt="Italian Mountain Villa" vertical-align="middle"/>
+                <img src="Content/images/italy-mountain-villa.jpeg" alt="Italian Mountain Villa" vertical-align="middle" />
             </div>
         </div>
     </div>
@@ -110,9 +116,8 @@
         <h2 vertical-align="middle">AMENITIES</h2>
         <h3>Some stuff for you to enjoy</h3>
     </div>
-    
-    <!--3x3 amenity grid-->
 
+    <!--3x3 amenity grid-->
     <!--First Row-->
     <div class="row container firstRow">
         <div class="col-sm-6 col-md-4 topleft">
@@ -178,29 +183,91 @@
         </div>
     </div>
 
-        <!--Reviews-->
-        <div class="jumbotron" id="reviews">
-            <a name="#reviews"></a>
-            <h2>REVIEWS</h2>
-            <h3>What our customers say</h3>
+    <!--Reviews-->
+    <div class="jumbotron" id="reviews">
+        <a name="#reviews"></a>
+        <h2>REVIEWS</h2>
+        <h3>What our customers say</h3>
+    </div>
+
+    <!--Reviews carousel-->
+    <div id="reviewCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#reviewCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#reviewCarousel" data-slide-to="1"></li>
+            <li data-target="#reviewCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <h2><i>"I love it! I love it! I love it!"</i></h2>
+                <h2>Stella, Avid Napper</h2>
+            </div>
+
+            <div class="item">
+                <h2><i>"The beds were just right!"</i></h2>
+                <h2>Goldilocks, Habitual Bed and Porridge Thief</h2>
+            </div>
+
+            <div class="item">
+                <h2><i>"I could sleep another 30 years!" </i></h2>
+                <h2>Austin Power, International Man of Mystery</h2>
+            </div>
         </div>
 
-        <!--Reviews carousel-->
-        <!--Contact-->
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#reviewCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#reviewCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
 
-        <div class="jumbotron" id="contact">
-            <a name="#contact"></a>
-            <h2 vertical-align="middle">CONTACT</h2>
-            <h3>We've got the answers</h3>
+    <!--Contact-->
+
+    <div class="jumbotron" id="contact">
+        <a name="#contact"></a>
+        <h2 vertical-align="middle">CONTACT</h2>
+        <h3>We've got the answers</h3>
+    </div>
+
+    <!--Contact field-->
+    <div class="row container contactField">
+        <div class="col-sm-4 col-md-4 leftside">
+            <h4>Contact us and we'll get back to you within 24 hours.</h4>
+            <h4><span class="glyphicon glyphicon-map-marker"></span> Cleveland, OH</h4>
+            <h4><span class="glyphicon glyphicon-phone"></span> 555-555-1212</h4>
+            <h4><span class="glyphicon glyphicon-envelope"></span> name@email.com</h4>
         </div>
+        <div class="col-sm-8 col-md-8 rightside">    
+            <div class="form-group row">
+                <div class="col-sm-6 col-md-6">
+                    <input type="text" class="form-control" placeholder="Enter name" id="name">
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <input type="text" class="form-control" placeholder="Enter email" id="email">
+                </div>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" rows="5" id="comment" placeholder="Comment"></textarea>
+            </div>
+        </div>
+    </div>
 
-        <!--Contact field-->
         <!--Back to top-->
         <div class="jumbotron" id="home">
             <a name="#home"></a>
+            <a href="#"><span class="glyphicon glyphicon-chevron-up uparrow"></span></a>
             <h2 vertical-align="middle">Created by: Joseph Homrocky</h2>
             <h3>Not at all copyrighted.</h3>
         </div>
+
+
 </body>
 </html>
 

@@ -28,20 +28,40 @@
     margin-bottom: 0;
 }
 
-#firstjumbo {
-    margin-left: 0;
-    margin-right: 0;
-    padding-top: 0;
-    padding-left: 0;
-    padding-right: 0;
+/*Pics under Nav Bar*/
+.toppics {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.toppics > .leftside {
+    background-image: url('Content/images/tuscany-villas-sant-anna.jpg');
+    background-size: 100% 100%;
     height: 372px;
 }
+.toppics > .rightside {
+    background-image: url('Content/images/Versilia.jpg');
+    background-size: 100% 100%;
+    height: 372px;
+}
+
+.container.toppics > .leftside > h1 {
+    font-size: 72px;
+    text-align: center;
+    color: white;
+    padding-bottom: 0;
+}
+.container.toppics > .leftside > h2 {
+    text-align: center;
+    color: white;
+}
+
+/*Locations jumbotron*/
 #locations {
     background-color: #474E5D;
     color: white;
     text-align: center;
 }
-
 #locations > h2 {
     margin-top: 0;
     margin-bottom: 0;
@@ -63,7 +83,6 @@
 
 /*Centering image on right side of Location #1 and border work*/
 body > div.row.container-fluid.locationOne > div.col-sm-4.col-md-4 {
-
     padding-left: 0;
     padding-right: 0;
 }
@@ -84,7 +103,7 @@ body > div.row.container-fluid.locationOne > div.col-sm-4.col-md-4 > div{
     color: white;
 }
 
-/*Centering image on left side of Location #2 and ensuring no border on picture*/
+/*Centering image on left side of Location #2 and border work*/
 body > div.row.container-fluid.locationTwo > div.col-sm-4.col-md-4 {
     padding-left: 0;
     padding-right: 0;
@@ -143,6 +162,11 @@ body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 > div {
     text-align: center;
     height: 348px;
 }
+.container.firstRow > .col-sm-6.col-md-4.topleft > div
+{
+    margin-top: 38%;
+    margin-bottom: auto;
+}
 
 .firstRow > .topleft > .textbox {
     background-color: rgbA(85, 87, 96, 0.6);
@@ -152,7 +176,7 @@ body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 > div {
     height: 70px;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: auto;
+    padding-top: 1px;
 }
 
 /*top middle section*/
@@ -170,16 +194,23 @@ body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 > div {
     height: 348px;
     text-align: center;
 }
+.container.firstRow > .col-sm-6.col-md-4.topright > div {
+    margin-top: 38%;
+    margin-bottom: auto;
+}
+
 
 .firstRow > .topright > .textbox {
     background-color: rgbA(85, 87, 96, 0.6);
     color: white;
     text-align: center;
     border: none;
-    height: 70px;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: auto;
+    height: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /*Second row*/
@@ -189,6 +220,7 @@ body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 > div {
     padding: 0;
 }
 
+/*Middle row, left side section*/
 .secondRow > .middleleft {
     color: #474E5D;
     text-align: center;
@@ -196,6 +228,7 @@ body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 > div {
     height: 348px;
 }
 
+/*Middle row, middle section*/
 .secondRow > .middle {
     background-size: cover;
     height: 348px;
@@ -203,17 +236,25 @@ body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 > div {
     background-image: url('Content/images/314-348x348.jpg');
 }
 
+.container.secondRow > .col-sm-6.col-md-4.middle > div {
+    margin-top: 35%;
+    margin-bottom: auto;
+}
+
 .secondRow > .middle > .textbox {
     background-color: rgbA(85, 87, 96, 0.6);
     color: white;
     text-align: center;
     border: none;
-    height: 70px;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: auto;
+    height: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
+/*Middle row, right section*/
 .secondRow > .middleright {
     color: #474E5D;
     text-align: center;
@@ -231,6 +272,8 @@ body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 > div {
     padding-right: 0;
     padding-top: 0;
 }
+
+/*Bottom left section*/
 .thirdRow > .bottomleft {
     background-image: url('Content/images/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
     background-size: cover;
@@ -238,17 +281,25 @@ body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 > div {
     text-align: center;
 }
 
+.container.thirdRow > .col-sm-6.col-md-4.bottomleft > div {
+    margin-top: 35%;
+    margin-bottom: auto;
+}
+
 .thirdRow > .bottomleft > .textbox {
     background-color: rgbA(85, 87, 96, 0.6);
     color: white;
     text-align: center;
     border: none;
-    height: 70px;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: auto;
+    height: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
+/*Bottom middle section*/
 .thirdRow > .bottommiddle {
     color: #474E5D;
     text-align: center;
@@ -256,6 +307,7 @@ body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 > div {
     height: 348px;
 }
 
+/*Bottom right section*/
 .thirdRow > .bottomright {
     background-image: url('Content/images/Villa-Vanna-231-348x348.jpg');
     background-size: cover;
@@ -263,31 +315,99 @@ body > div.row.container-fluid.locationThree > div.col-sm-4.col-md-4 > div {
     text-align: center;
 }
 
+.container.thirdRow > .col-sm-6.col-md-4.bottomright > div {
+    margin-top: 35%;
+    margin-bottom: auto;
+}
+
 .thirdRow > .bottomright > .textbox {
     background-color: rgbA(85, 87, 96, 0.6);
     color: white;
     text-align: center;
     border: none;
-    height: 70px;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: auto;
+    height: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-
+/*Reviews jumbotron*/
 #reviews {
     background-color: #474E5D;
     color: white;
     text-align: center;
 }
+
+/*Reviews Carousel*/
+#reviewCarousel {
+    text-align: center;
+    background-color: white;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#reviewCarousel > h2 {
+    vertical-align: middle;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+.carousel-indicators li {
+    vertical-align: bottom;
+    background-color: #474E5D;
+}
+.carousel-indicators .active {
+    background-color: #474E5D;
+}
+
+#reviewCarousel > .left.carousel-control {
+    color: #A3A7AE;
+    background: none;
+}
+
+#reviewCarousel > .right.carousel-control {
+    color: #A3A7AE;
+    background: none;
+}
+
+/*Contact jumbotron*/
 #contact {
     background-color: #474E5D;
     color: white;
     text-align: center;
 }
 
+/*Contact field*/
+.contactField {
+    margin-top: 50px;
+    margin-right: 0;
+    margin-bottom: 150px;
+    margin-left: 0;
+    padding-right: 50px;
+    width: 100%;
+    padding-left: 50px;
+}
+
+.contactField > .leftside {
+    padding: 0;
+}
+
+.contactField > .rightside {
+    padding: 0;
+}
+
+/*bottom portion jumbotron*/
 #home {
     background-color: #474E5D;
     color: white;
     text-align: center;
+}
+
+/*Chevron up path*/
+#home > a:nth-child(2) > span {
+    color: white;
 }
